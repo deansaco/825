@@ -1,5 +1,8 @@
 This repo contains the implementation of The LeNet, AlexNet, and GoogleNet CNN architectures for the recognition of 43 classes of traffic signs. These three models were implemented in succession. This workflow was designed with the purpose of incremental learning: starting with the most basic CNN architecture (LeNet) and working up towards a robust model (GoogleNet). The three models were programmed using TensorFlow 2 and slightly differ from their original forms. All three models were trained, tested, and evaluated on the GTSRB data set. KerasTuner, an easy-to-use, hyperparameter optimization framework that uses search algorithms to find the best hyperparameters, was used in this project.
 
+# Dataset
+German Traffic Sign Recognition Benchmark (GTSRB). This dataset is probably the most popular benchmark in the area of traffic sign recognition and was introduced at the conference IJCNN 2011. The database consists of 50000 images, with 40000 dedicated for training and 10000 used for testing. GTSRB represents a large, lifelike dataset with 43 traffic sign classes. Image size is fixed to 32x32. One can find and download the benchmark by the following link: https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+
 # LeNet:
 
 This project’s adoption of the LeNet Architecture can be found in the table below:
