@@ -18,8 +18,8 @@ Several deep learning techniques were introduced to improve the performance of t
 
 Results when evaluating the LeNet model: Training Accuracy: 98.36%, Test Accuracy: 91.05%, Validation Accuracy: 92.68%. The difference between training and test accuracy implies overfitting. The LeNet model is prone to overfitting due to the simplicity of the model. This can be confirmed from analyzing Figure 3. The AlexNet and GoogleNet models will introduce different methods to address the overfitting problem.
 
-![LeNet (1)](https://user-images.githubusercontent.com/56232251/186503992-636c6475-cf1d-4395-8ad1-31dc75f48aa5.png)
 
+![LeNet (1)](https://user-images.githubusercontent.com/56232251/191630840-3834b86c-94ce-48e8-ba86-cfb772c547dd.jpg)
 
 
 # AlexNet
@@ -35,7 +35,7 @@ The AlexNet architeture is an extension of LeNet, but it is deeper and bigger. T
 
 Results when evaluating the AlexNet model: Training Accuracy: 99.99%, Test Accuracy: 96.08%, Validation Accuracy: 97.07%. These results show a significant improvement over LeNet with little overfitting.
 
-![Alex (1)](https://user-images.githubusercontent.com/56232251/186502008-8d9323a6-1671-4fa5-9e03-5d0f04413e65.png)
+![Alex (1)](https://user-images.githubusercontent.com/56232251/191630815-fe4ba323-d421-427d-9408-ab63647c6bf0.jpg)
 
 # GoogleNet
 GoogLeNet was the winner of the 2014 ILSVRC. Researchers discovered there is a correlation between increasing layers within a network and performance gain. However, Large networks are prone to overfitting, costly to train, and are affected by the vanishing gradient problem. The large network problems were handled by GoogleNet through the innovation of Inception modules - a sparse neural network architecture that uses convolutions in parallel to make the network wider instead of deeper. The Inception module greatly reduces the parameter size of the network.
@@ -51,6 +51,6 @@ The GoogleNet consists of 24 layers, including nine Inception modules. GoogleNet
 
 Results when evaluating the GoogleNet model: Training Accuracy: 99.91%, Test Accuracy: 96.53%, Validation Accuracy: 97.26%. There is little difference between these accuracies, implying very little overfitting. GoogleNet and Alexnet significantly outperform LeNet for image classification. The training and testing accuracies of GoogleNet can be compared in the Figure below. 
 
-![googlenet](https://user-images.githubusercontent.com/56232251/186502024-82b92495-c428-4e01-9d86-e3e7759c888c.png)
+![googlenet](https://user-images.githubusercontent.com/56232251/191630795-f15a597d-0e28-4c48-aaae-1975a05878f6.jpg)
 
 
