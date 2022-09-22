@@ -49,7 +49,7 @@ The GoogleNet consists of 24 layers, including nine Inception modules. GoogleNet
 
 
 
-Results when evaluating the GoogleNet model: Training Accuracy: 99.91%, Test Accuracy: 96.53%, Validation Accuracy: 97.26%. There is little difference between these accuracies, implying very little overfitting. GoogleNet and Alexnet significantly outperform LeNet for image classification. The training and testing accuracies of LeNet, AlexNet, and GoogleNet can be compared in Figure 3 below. 
+Results when evaluating the GoogleNet model: Training Accuracy: 99.91%, Test Accuracy: 96.53%, Validation Accuracy: 97.26%. There is little difference between these accuracies, implying very little overfitting. GoogleNet and Alexnet significantly outperform LeNet for image classification. The training and testing accuracies of GoogleNet can be compared in the Figure below. 
 
 ![googlenet](https://user-images.githubusercontent.com/56232251/186502024-82b92495-c428-4e01-9d86-e3e7759c888c.png)
 
